@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
+import Book from './Book';
+import ThemeChangeButton from './ThemeChangeButton';
+
 
 class Booklist extends Component {
 
   render() { 
     return (
-      <h1>Hi</h1>
+      <div>
+        <h1>Clifford the Big Red Dog</h1>
+        <Book />
+        <ThemeChangeButton />
+      </div>
+
     );
   }
 }
